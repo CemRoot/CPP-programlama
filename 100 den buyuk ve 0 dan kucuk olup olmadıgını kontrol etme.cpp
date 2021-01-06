@@ -2,18 +2,18 @@
 int main()
 {
 int sayi,oku;
-printf("sayi gir: ",sayi);
-scanf("%d",&sayi);
+cout<<"sayi gir:"<<sayi;
+cin>>sayi;
 if(sayi>100)
 {
-	printf("girilen sayi 100 den buyuk",sayi);
+	cout<<"girilen sayi 100'den buyuk.";
 }
-else if(sayi<0)
+if else (sayi<0)
 {
-	printf("girilen sayi 0 dan kucuk",sayi);
+	cout<<"gireken sayi 0'dan kucuk.";
 }
 else
 {
-	printf("girilen sayi 0 ile 100 arasinda",sayi);
+	cout<<"girilen sayı 0-100 arasinda.";
 }
 }
